@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>Bereket Lemma Portfolio</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">Bereket Lemma</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#Experience" uk-scroll>Experience</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Navigation Bar Ends  -->
+
+    <!-- Navigation Bar Mobile -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">Bereket Lemma.</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Change This -->
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+                <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+                <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+                <li class="uk-active"><a href="#Experience" uk-scroll>Experience</a></li>
+                <li class="uk-active"><a href="#contact" uk-scroll>Contact</a></li>
+
+            </ul>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Navigation Bar Mobile Ends -->
+    <!-- Home -->
+    <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Hi,<br> I'm Bereket
+            Lemma<br> CS student at Whitworth University </h1>
+        <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About
+            Me</a>
+
+
+    </section>
+
+    <!-- Home Ends -->
+    <br>
+
+
+    <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- About Me -->
+    <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+        <!-- Change here to ur paragraph -->
+        <p class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            I'm a third-year Computer Science student at Whitworth University, passionate about Full Stack Development
+            and
+            Machine Learning Engineering.<br><br>
+            I love building things that solves real world problems, and I’m always on the lookout for ways to push my
+            skills
+            and learn something new.<br><br>
+
+            I've grown up assisting people around me, which has helped me become a good collaborator when it comes to
+            working in a team.<br>
+            I believe in supporting others, learning more about their perspectives, and growing, both personally and
+            professionally.
+            <br><br>
+
+            I'm currently looking for a Software Engineering Internship for Summer 2025, where I can contribute my
+            skills
+            and learn from experienced professionals. <br><br>
+            Feel free to reach out to me if you have any questions or just want to chat. I'm always open to new
+            opportunities and connections. <br><br>
+
+
+        </p>
+        <a href="https://www.instagram.com/bereket.11_/" class="uk-margin-xlarge-left uk-light uk-button-text"
+            uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a
+            href="https://github.com/bereketlemma" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a
+            href="https://www.linkedin.com/in/bereketl/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+
+        <!-- About Me Ends -->
+
+    </section>
+
+    <!-- Projects Section -->
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <section id="projects"
+        class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+        <p class="uk-margin-xlarge-left">Projects been working on....</p>
+
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- Change all of this to ur projects -->
+
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>NoteLog </h4>
+                <p>Developed NoteLog for client, a scalable note management platform replacing a sticky note system,
+                    supporting
+                    200+ employees with a web app for efficient task tracking.</p>
+                <p>Built a secure MERN backend with JWT authentication, enabling CRUD operations and reducing
+                    unauthorized access incidents by 90%, while improving average response time by 40% through optimized
+                    database queries.</p>
+                <p>Deployed to AWS using Docker, ensuring scalability and 99.9% uptime, with features like rapid access
+                    removal, weekly login enforcement, and seamless mobile responsiveness for improved user experience.
+                </p>
+                <a class="uk-button-text uk-text-decoration-none" href="">
+                    <span uk-icon="icon: link">
+                    </span> Website Link </a>
+            </div>
+
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Music Genre Classifier</h4>
+                <p>Developed a music genre classifier by extracting audio features using Librosa, Pandas, and
+                    Scikit-learn achieving 83% accuracy after 100 epochs.</p>
+                <p>Optimized model performance with XGBoost (Training: 99.92%, Testing: 91.59%) and CNN models
+                    (Validation Accuracy: 92.89%) through Machine learning techniques leveraging Keras and TensorFlow.
+                </p>
+                <a class="uk-button-text uk-text-decoration-none" href="">
+                    <span uk-icon="icon: link">
+                    </span> Website Link </a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Navigate City </h4>
+                <p>
+                    Developed a user-friendly web application, NavigateCity, designed to help users explore cities by
+                    providing detailed information on over 25,000 attractions worldwide.
+                </p>
+                <p>
+                    Leveraged Python 3, the Flask framework, and the Bard API to build the backend and AI capabilities,
+                    integrating MySQL for data management. </p>
+                <a class="uk-button-text uk-text-decoration-none" href="">
+                    <span uk-icon="icon: link">
+                    </span> Website Link </a>
+            </div>
+        </div>
+
+
+
+        <br>
+
+
+    </section>
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    </div>
+    <!-- Projects Section Ends -->
+
+    <!-- Experience Section -->
+    <section id="Experience"
+        class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Experience</h3>
+        <p class="uk-margin-xlarge-left">Experience I have gained so far....</p>
+
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- Change all of this to ur projects -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Washington Trust Bank-Engineering Intern</h4>
+                <p>
+                    Provisioned and managed user accounts, permissions, and group policies within Active Directory,
+                    supporting the company transition to Microsoft Surface Devices and reducing access issues by 25%
+                </p>
+                <p>
+                    Configured and maintained RSA SecurID, Microsoft Intune, and Jira, improving user authentication
+                    processes and endpoint management for 500+ devices, boosting operational efficiency by 15%.
+                </p>
+                <p>
+                    Provided IT hardware support, including installation, assembly, and troubleshooting of over 300
+                    devices, reducing downtime by 30% and improving support ticket resolution time by 20%.
+                </p>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Hewitt Learning-Software Engineering Co-op</h4>
+                <p>
+                    Led a team of 10+ developers and designers to build a full-stack educational game using JavaScript,
+                    Flask, and SQLAlchemy, delivering the project within 7 days and boosting overall team efficiency by
+                    35% through streamlined communication and task management.
+                </p>
+                <p>
+                    Engineered a SQL database that reduced data retrieval latency by 40%, seamlessly integrated with the
+                    Flask backend, and supported 50+ user interactions during testing.
+                </p>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Teaching Assistant-Whitworth University</h4>
+                <p>Assisted the professor in teaching 30 undergraduate students in database management, providing
+                    support in grading. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Experience Section Ends -->
+
+    <!-- Contact Section -->
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <section id="contact"
+        class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Contact</h3>
+        <p class="uk-margin-xlarge-left">Let's connect and build something together...</p>
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <form action="mailto:bereket.lemma10@gmail.com" method="post" enctype="text/plain">
+                <div class="uk-margin">
+                    <input class="uk-input uk-form-width-large" type="text" placeholder="Name">
+                </div>
+                <div class="uk-margin">
+                    <input class="uk-input uk-form-width-large" type="text" placeholder="Email">
+                </div>
+                <div class="uk-margin">
+                    <textarea class="uk-textarea uk-form-width-large" rows="5" placeholder="Message"></textarea>
+                </div>
+                <button class="uk-button uk-button-secondary uk-margin-xlarge-left" type="submit">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <section>
+        <!-- Contact Section Ends -->
+        <!-- Footer -->
+        <footer class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+            <p class="uk-light uk-text-center">Made with <span uk-icon="heart"></span> by Bereket Lemma</p>
+            <p class="uk-light uk-text-center">© 2025 Bereket Lemma. Thanks for visiting!
+            <p>
+            <p class="uk-light uk-text-center"> <a href="https://linkedin.com/in/bereketl" class="uk-light uk-button-text"
+                    uk-icon="linkedin"></a> &nbsp;<a href="https://github.com/bereketlemma" class="uk-light uk-button-text"
+                    uk-icon="github"></a>
+                &nbsp;<a href="https://www.instagram.com/bereket.11_/" class="uk-light uk-button-text"
+                    uk-icon="instagram"></a>
+                &nbsp;
+            </p>
+    </section>
+    </footer>
+</body>
+
+</html>
